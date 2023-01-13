@@ -78,52 +78,12 @@ html {
 	padding-top: 10px;
 	margin: 0 0 10px 0;
 }
-.spending_colum_1,
-.spending_colum_2,
-.spending_colum_3,
-.spending_colum_4,
-.spending_colum_5,
-.spending_colum_6,
-.spending_colum_7 {
+.spending_colum {
 	border-radius: 5px;
 	width: 50px;
 	margin-left: 7.5px;
 }
-.spending_colum_1 {
-	background-color: hsl(10, 79%, 65%);
-	height: 53px;
-}
-.spending_colum_2 {
-	background-color: hsl(10, 79%, 65%);
-	height: 107px;
-}
-.spending_colum_3 {
-	background-color: hsl(186, 34%, 60%);
-	height: 160px;
-}
-.spending_colum_4 {
-	background-color: hsl(10, 79%, 65%);
-	height: 95px;
-}
-.spending_colum_5 {
-	background-color: hsl(10, 79%, 65%);
-	height: 71px;
-}
-.spending_colum_6 {
-	background-color: hsl(10, 79%, 65%);
-	height: 132px;
-}
-.spending_colum_7 {
-	background-color: hsl(10, 79%, 65%);
-	height: 78px;
-}
-.spending_busket:hover .spending_colum_1,
-.spending_busket:hover .spending_colum_2,
-.spending_busket:hover .spending_colum_3,
-.spending_busket:hover .spending_colum_4,
-.spending_busket:hover .spending_colum_5,
-.spending_busket:hover .spending_colum_6,
-.spending_busket:hover .spending_colum_7 {
+.spending_busket:hover .spending_colum {
 	opacity: 0.6;
 	cursor: pointer;
 }
@@ -189,13 +149,7 @@ body {
 .spending_week_day {
 	width: 48px;
 }
-.spending_colum_1,
-.spending_colum_2,
-.spending_colum_3,
-.spending_colum_4,
-.spending_colum_5,
-.spending_colum_6,
-.spending_colum_7 {
+.spending_colum {
 	width: 40px;
 }
 .spending_underline {
